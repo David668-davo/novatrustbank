@@ -47,7 +47,7 @@ export default function App() {
   return (
     <div className="nt-app">
       {!isAuth && (
-        <Navbar loggedIn={loggedIn} setPage={setPage} setLoggedIn={setLoggedIn} />
+        <Navbar loggedIn={loggedIn} page={page} setPage={setPage} setLoggedIn={setLoggedIn} notifCount={notifCount} />
       )}
 
       {isApp ? (
